@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './i18n'; // Import the i18n initialization so that it's available globally
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
